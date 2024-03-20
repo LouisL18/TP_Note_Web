@@ -1,0 +1,228 @@
+{
+    "personnages": [
+      {
+        "nom": "Iop",
+        "classe": "Guerrier",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 15,
+        "agilite": 7,
+        "intelligence": 5,
+        "equipement": {
+          "arme": "Épée de l'Iop",
+          "armure": "Armure du Iop",
+          "accessoires": ["Bouclier du Iop", "Bottes du Iop"]
+        }
+      },
+      {
+        "nom": "Eniripsa",
+        "classe": "Soigneur",
+        "niveau": 1,
+        "points_de_vie": 120,
+        "force": 5,
+        "agilite": 8,
+        "intelligence": 15,
+        "equipement": {
+          "arme": "Bâton de l'Eniripsa",
+          "armure": "Robe de l'Eniripsa",
+          "accessoires": ["Anneau de l'Eniripsa"]
+        }
+      },
+      {
+        "nom": "Osamodas",
+        "classe": "Invocateur",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 10,
+        "agilite": 8,
+        "intelligence": 10,
+        "equipement": {
+          "arme": "Lance de l'Osamodas",
+          "armure": "Tenue de l'Osamodas",
+          "accessoires": ["Amulette de l'Osamodas"]
+        }
+      },
+      {
+        "nom": "Sacrieur",
+        "classe": "Tank",
+        "niveau": 1,
+        "points_de_vie": 200,
+        "force": 20,
+        "agilite": 5,
+        "intelligence": 5,
+        "equipement": {
+          "arme": "Épée du Sacrieur",
+          "armure": "Cape du Sacrieur",
+          "accessoires": ["Ceinture du Sacrieur"]
+        }
+      },
+      {
+        "nom": "Cra",
+        "classe": "Archer",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 8,
+        "agilite": 15,
+        "intelligence": 7,
+        "equipement": {
+          "arme": "Arc du Cra",
+          "armure": "Cape du Cra",
+          "accessoires": ["Flèches de précision"]
+        }
+      },
+      {
+        "nom": "Sadida",
+        "classe": "Invocateur",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 10,
+        "agilite": 7,
+        "intelligence": 13,
+        "equipement": {
+          "arme": "Baguette du Sadida",
+          "armure": "Robe du Sadida",
+          "accessoires": ["Chapeau du Sadida"]
+        }
+      },
+      {
+        "nom": "Sram",
+        "classe": "Roublard",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 10,
+        "agilite": 12,
+        "intelligence": 8,
+        "equipement": {
+          "arme": "Dague du Sram",
+          "armure": "Cape du Sram",
+          "accessoires": ["Masque du Sram", "Cape du Sram"]
+        }
+      },
+      {
+        "nom": "Feca",
+        "classe": "Protecteur",
+        "niveau": 1,
+        "points_de_vie": 160,
+        "force": 8,
+        "agilite": 6,
+        "intelligence": 14,
+        "equipement": {
+          "arme": "Épée du Feca",
+          "armure": "Bouclier du Feca",
+          "accessoires": ["Bottes du Feca"]
+        }
+      },
+      {
+        "nom": "Xelor",
+        "classe": "Manipulateur du temps",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 7,
+        "agilite": 10,
+        "intelligence": 13,
+        "equipement": {
+          "arme": "Montre du Xelor",
+          "armure": "Robe du Xelor",
+          "accessoires": ["Chapeau du Xelor"]
+        }
+      },
+      {
+        "nom": "Pandawa",
+        "classe": "Maître des éléments",
+        "niveau": 1,
+        "points_de_vie": 170,
+        "force": 12,
+        "agilite": 10,
+        "intelligence": 8,
+        "equipement": {
+          "arme": "Tonfa du Pandawa",
+          "armure": "Tenue du Pandawa",
+          "accessoires": ["Ceinture du Pandawa"]
+        }
+      },
+      {
+        "nom": "Roublard",
+        "classe": "Voleur",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 10,
+        "agilite": 13,
+        "intelligence": 7,
+        "equipement": {
+          "arme": "Pistolet du Roublard",
+          "armure": "Veste du Roublard",
+          "accessoires": ["Cape du Roublard"]
+        }
+      },
+      {
+        "nom": "Zobal",
+        "classe": "Transformiste",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 12,
+        "agilite": 9,
+        "intelligence": 9,
+        "equipement": {
+          "arme": "Masque du Zobal",
+          "armure": "Costume du Zobal",
+          "accessoires": ["Bouclier du Zobal"]
+        }
+      },
+      {
+        "nom": "Steamer",
+        "classe": "Ingénieur",
+        "niveau": 1,
+        "points_de_vie": 160,
+        "force": 9,
+        "agilite": 10,
+        "intelligence": 11,
+        "equipement": {
+          "arme": "Canne du Steamer",
+          "armure": "Armure du Steamer",
+          "accessoires": ["Casque du Steamer"]
+        }
+      },
+      {
+        "nom": "Eliotrope",
+        "classe": "Maître des portails",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 10,
+        "agilite": 10,
+        "intelligence": 15,
+        "equipement": {
+            "arme": "Bâton de l'Eliotrope",
+            "armure": "Robe de l'Eliotrope",
+            "accessoires": ["Chapeau de l'Eliotrope"]
+        }
+        },
+        {
+            "nom": "Huppermage",
+            "classe": "Mage élémentaliste",
+            "niveau": 1,
+            "points_de_vie": 140,
+            "force": 8,
+            "agilite": 10,
+            "intelligence": 12,
+            "equipement": {
+              "arme": "Bâton du Huppermage",
+              "armure": "Robe du Huppermage",
+              "accessoires": ["Chapeau du Huppermage"]
+            }
+          },
+          {
+            "nom": "Ouginak",
+            "classe": "Guerrier bestial",
+            "niveau": 1,
+            "points_de_vie": 170,
+            "force": 15,
+            "agilite": 10,
+            "intelligence": 7,
+            "equipement": {
+              "arme": "Griffes de l'Ouginak",
+              "armure": "Peau de l'Ouginak",
+              "accessoires": ["Collier de l'Ouginak"]
+            }
+          }
+    ]
+}
