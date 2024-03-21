@@ -1,6 +1,6 @@
 import Home from './views/pages/Home.js';
-import ArticleAll from './views/pages/ArticleAll.js';
-import ArticleShow from './views/pages/ArticleShow.js';
+import PersonnageAll from './views/pages/PersonnageAll.js';
+import PersonnageShow from './views/pages/PersonnageShow.js';
 import About from './views/pages/About.js';
 import Error404 from './views/pages/Error404.js';
 
@@ -10,8 +10,8 @@ import Utils from './services/Utils.js';
 const routes = {
     '/'                     : Home
     , '/about'              : About
-    , '/articles'           : ArticleAll
-    , '/articles/:id'       : ArticleShow
+    , '/personnages'           : PersonnageAll
+    , '/personnage/:nom'       : PersonnageShow
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
@@ -24,7 +24,7 @@ const router = async () => {
     let request = Utils.parseRequestURL()
 
     // Parse the URL and if it has an id part, change it with the string ":id"
-    let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/' + request.verb : '')
+    let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id ? '/:nom' : '') + (request.verb ? '/' + request.verb : '')
     // Get the page from our hash of supported routes.
     // If the parsed URL is not in our list of supported routes, select the 404 page instead
     let page = routes[parsedURL] ? new routes[parsedURL] : Error404
