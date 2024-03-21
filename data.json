@@ -1,0 +1,258 @@
+{
+    "personnages": [
+      {
+        "nom": "Iop",
+        "classe": "Guerrier",
+        "description":"Quand on est un barbare avec un caractère de chienchien, il faut savoir montrer les crocs pour se faire respecter. Le regard fier, le poil brillant, la truffe humide : c'est ainsi que l'Ouginak traverse les épreuves et triomphe de l'adversité. Traquer ses proies sans relâche, laisser éclater sa rage pour écraser ses ennemis, les voir mourir devant soi et entendre les miaulements terrorisés de leurs chachas… Voilà une vie digne d'être vécue !",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c38302c323132347c313d31363736353536342c323d31363335353838332c333d31363737373138352c343d323931303036342c353d31343536313739397c3134307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 15,
+        "agilite": 7,
+        "intelligence": 5,
+        "equipement": {
+          "arme": "Épée de l'Iop",
+          "armure": "Armure du Iop",
+          "accessoires": ["Bouclier du Iop", "Bottes du Iop"]
+        }
+      },
+      {
+        "nom": "Eniripsa",
+        "classe": "Soigneur",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c37302c323130387c313d31363736353536342c323d373336303534352c333d31343435333533322c343d363034383831362c353d343733343030377c3131307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 120,
+        "force": 5,
+        "agilite": 8,
+        "intelligence": 15,
+        "equipement": {
+          "arme": "Bâton de l'Eniripsa",
+          "armure": "Robe de l'Eniripsa",
+          "accessoires": ["Anneau de l'Eniripsa"]
+        }
+      },
+      {
+        "nom": "Osamodas",
+        "classe": "Invocateur",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c32302c323032387c313d31353937333437302c323d31363737373136362c333d343833363537332c343d323832373032372c353d31363736313930347c3133307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 10,
+        "agilite": 8,
+        "intelligence": 10,
+        "equipement": {
+          "arme": "Lance de l'Osamodas",
+          "armure": "Tenue de l'Osamodas",
+          "accessoires": ["Amulette de l'Osamodas"]
+        }
+      },
+      {
+        "nom": "Sacrieur",
+        "classe": "Tank",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c3131302c323137327c313d31363736353536342c323d31363735333433342c333d393830393730342c343d353636343830322c353d31363737313133387c3134357d/full/3/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 200,
+        "force": 20,
+        "agilite": 5,
+        "intelligence": 5,
+        "equipement": {
+          "arme": "Épée du Sacrieur",
+          "armure": "Cape du Sacrieur",
+          "accessoires": ["Ceinture du Sacrieur"]
+        }
+      },
+      {
+        "nom": "Cra",
+        "classe": "Archer",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c39302c323134307c313d31363736323938332c323d31343737343534322c333d353739323736382c343d353834353737362c353d31363432323135397c3134307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 8,
+        "agilite": 15,
+        "intelligence": 7,
+        "equipement": {
+          "arme": "Arc du Cra",
+          "armure": "Cape du Cra",
+          "accessoires": ["Flèches de précision"]
+        }
+      },
+      {
+        "nom": "Sadida",
+        "classe": "Invocateur",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c3130302c323135362c313235337c313d383533373838372c323d383136343039392c333d31343430323636392c343d31343430323636392c353d31313936303839327c3135307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 10,
+        "agilite": 7,
+        "intelligence": 13,
+        "equipement": {
+          "arme": "Baguette du Sadida",
+          "armure": "Robe du Sadida",
+          "accessoires": ["Chapeau du Sadida"]
+        }
+      },
+      {
+        "nom": "Sram",
+        "classe": "Roublard",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c34312c323036387c313d31353338343637342c323d31363737373139382c333d343135373835342c343d343135373835342c353d31343837323530357c3135357d/full/2/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 10,
+        "agilite": 12,
+        "intelligence": 8,
+        "equipement": {
+          "arme": "Dague du Sram",
+          "armure": "Cape du Sram",
+          "accessoires": ["Masque du Sram", "Cape du Sram"]
+        }
+      },
+      {
+        "nom": "Feca",
+        "classe": "Protecteur",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c31312c323032307c313d31363130333737352c323d363833333138342c333d31333636313139302c343d31333636313139302c353d363936333436327c3132357d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 160,
+        "force": 8,
+        "agilite": 6,
+        "intelligence": 14,
+        "equipement": {
+          "arme": "Épée du Feca",
+          "armure": "Bouclier du Feca",
+          "accessoires": ["Bottes du Feca"]
+        }
+      },
+      {
+        "nom": "Xelor",
+        "classe": "Manipulateur du temps",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c35302c323037367c313d373935373332302c323d363137383038322c333d323737353635342c343d31343532333935342c353d343333363635387c3131307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 7,
+        "agilite": 10,
+        "intelligence": 13,
+        "equipement": {
+          "arme": "Montre du Xelor",
+          "armure": "Robe du Xelor",
+          "accessoires": ["Chapeau du Xelor"]
+        }
+      },
+      {
+        "nom": "Pandawa",
+        "classe": "Maître des éléments",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c3132302c323138387c313d31353435373938342c323d353139373130382c333d373637333131302c343d31353435373938342c353d343031353931357c3136307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 170,
+        "force": 12,
+        "agilite": 10,
+        "intelligence": 8,
+        "equipement": {
+          "arme": "Tonfa du Pandawa",
+          "armure": "Tenue du Pandawa",
+          "accessoires": ["Ceinture du Pandawa"]
+        }
+      },
+      {
+        "nom": "Roublard",
+        "classe": "Voleur",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c313430352c323230347c313d31343738353333372c323d323536373731332c333d323536373731332c343d333431393431392c353d31363737373136347c3136307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 10,
+        "agilite": 13,
+        "intelligence": 7,
+        "equipement": {
+          "arme": "Pistolet du Roublard",
+          "armure": "Veste du Roublard",
+          "accessoires": ["Cape du Roublard"]
+        }
+      },
+      {
+        "nom": "Zobal",
+        "classe": "Transformiste",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c313433372c323232307c313d31363736313730332c323d31343432383436352c333d343836333532332c343d313835353832342c353d31353236323933317c3135307d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 12,
+        "agilite": 9,
+        "intelligence": 9,
+        "equipement": {
+          "arme": "Masque du Zobal",
+          "armure": "Costume du Zobal",
+          "accessoires": ["Bouclier du Zobal"]
+        }
+      },
+      {
+        "nom": "Steamer",
+        "classe": "Ingénieur",
+        "description":"",
+        "image":"https://prod.liveshare.vsengsaas.visualstudio.com/join?9B83CD69A40279EB5E1B5546A7EDD3E56B16",
+        "niveau": 1,
+        "points_de_vie": 160,
+        "force": 9,
+        "agilite": 10,
+        "intelligence": 11,
+        "equipement": {
+          "arme": "Canne du Steamer",
+          "armure": "Armure du Steamer",
+          "accessoires": ["Casque du Steamer"]
+        }
+      },
+      {
+        "nom": "Eliotrope",
+        "classe": "Maître des portails",
+        "description":"",
+        "image":"https://static.ankama.com/dofus/renderer/look/7b317c333137392c333138337c313d234535453345342c323d233741413041302c333d234132363132412c343d233239384341392c353d234438433839347c3134357d/full/1/250_250-10_100.png",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 10,
+        "agilite": 10,
+        "intelligence": 15,
+        "equipement": {
+            "arme": "Bâton de l'Eliotrope",
+            "armure": "Robe de l'Eliotrope",
+            "accessoires": ["Chapeau de l'Eliotrope"]
+          }
+        },
+        {
+          "nom": "Huppermage",
+          "classe": "Mage élémentaliste",
+          "image":"https://static.ankama.com/dofus/renderer/look/7b317c333238362c333239377c313d234639454244302c323d234646464144412c333d233239353635352c343d233434384539312c353d234630463345397c3133357d/full/1/250_250-10_100.png",
+          "niveau": 1,
+          "points_de_vie": 140,
+          "force": 8,
+          "agilite": 10,
+          "intelligence": 12,
+          "equipement": {
+            "arme": "Bâton du Huppermage",
+            "armure": "Robe du Huppermage",
+            "accessoires": ["Chapeau du Huppermage"]
+          }
+          },
+          {
+            "nom": "Ouginak",
+            "classe": "Guerrier bestial",
+            "image":"https://static.ankama.com/dofus/renderer/look/7b317c333439382c333530327c313d363234373232362c323d383830353637332c333d31313330303838352c343d333535313030372c353d383733333435397c3135357d/full/1/250_250-10_100.png",
+            "niveau": 1,
+            "points_de_vie": 170,
+            "force": 15,
+            "agilite": 10,
+            "intelligence": 7,
+            "equipement": {
+              "arme": "Griffes de l'Ouginak",
+              "armure": "Peau de l'Ouginak",
+              "accessoires": ["Collier de l'Ouginak"]
+            }
+          }
+    ]
+}
