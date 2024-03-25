@@ -18,7 +18,7 @@ export default class PersonnagesProvider {
        }
     }
 
-    static getPersonnage = async (id) => {
+    static getPersonnage = async (nom) => {
         const options = {
            method: 'GET',
            headers: {
@@ -26,7 +26,7 @@ export default class PersonnagesProvider {
            }
        };
        try {
-           const response = await fetch(`${ENDPOINT}/` + id, options)
+           const response = await fetch(`${ENDPOINT}/` + nom, options)
            const json = await response.json();
            return json
        } catch (err) {

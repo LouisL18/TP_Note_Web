@@ -8,12 +8,10 @@ export default class PersonnageShow {
         
         return /*html*/`
             <section class="section">
-                <h1> Article index : ${post.nom}</h1>
-                <p> Post Title : ${post.nom} </p>
-                <p> Post Content : ${post.nom} </p>
+                <h2> ${ request }</h2>
+                <h1> ${ post} </h1>
             </section>
             <p><a href="/">back to home</a></p>
-            <p><a href="#/articles">back to all articles</a></p>
         `
     }
 }
