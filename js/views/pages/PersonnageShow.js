@@ -4,16 +4,19 @@ import PersonnagesProvider from "../../services/PersonnagesProvider.js";
 export default class PersonnageShow {
     async render () {
         let request = Utils.parseRequestURL()
-        let post = await PersonnagesProvider.getPersonnage(request.nom)
-        
+        let personnage = await PersonnagesProvider.getPersonnage(request.nom)     
         return /*html*/`
             <section class="section">
-                <h1> Article index : ${post.nom}</h1>
-                <p> Post Title : ${post.nom} </p>
-                <p> Post Content : ${post.nom} </p>
+                <h2> ${ personnage }</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="ak-entitylook" alt="" width="250" height="250" src="${personnage.image}">
+                    </div>
+                    <div class="col-md-6">
+                        <p>${ personnage.description }</p>
+                    </div>
             </section>
             <p><a href="/">back to home</a></p>
-            <p><a href="#/articles">back to all articles</a></p>
         `
     }
 }

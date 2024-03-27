@@ -18,6 +18,7 @@ export default class PersonnagesProvider {
        }
     }
 
+
     static getPersonnage = async (id) => {
         const options = {
            method: 'GET',

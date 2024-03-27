@@ -1,4 +1,4 @@
-export default class About {
+export default class Favoris {
     async render () {
         return /*html*/`
             <section class="section">
