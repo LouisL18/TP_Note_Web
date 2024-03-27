@@ -1,12 +1,25 @@
 export default class Favoris {
-    async render () {
-        return /*html*/`
+    constructor(favorisList) {
+        this.favorisList = favorisList;
+    }
+
+    async render() {
+        let favorisHtml = "";
+
+        if (this.favorisList && this.favorisList.length > 0) {
+            this.favorisList.forEach(personnageId => {
+                favorisHtml += `<p>Personnage favori avec ID: ${personnageId}</p>`;
+            });
+        } else {
+            favorisHtml = "<p>Aucun personnage favori pour le moment.</p>";
+        }
+
+        return `
             <section class="section">
-                <h1>Information</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, optio? Culpa ipsum facilis accusamus et iure cupiditate quae minima eum veritatis! Ipsum, hic nemo! Suscipit eligendi magnam atque fugit error.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, optio? Culpa ipsum facilis accusamus et iure cupiditate quae minima eum veritatis! Ipsum, hic nemo! Suscipit eligendi magnam atque fugit error.</p>
+                <h2>Favoris</h2>
+                ${favorisHtml}
             </section>
-            <p><a href="/">back to home</a></p>
-        `
+            <p><a href="/">Retour à l'accueil</a></p>
+        `;
     }
 }
