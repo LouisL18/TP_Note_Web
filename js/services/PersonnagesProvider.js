@@ -34,4 +34,15 @@ export default class PersonnagesProvider {
            console.log('Error getting personnage', err)
        }
     }
+
+    static getPersonnagebis = async (name) => {
+        try {
+            const response = await this.fetchPersonnages(50);
+            console.log(response);
+            return response.filter(personnage => personnage.nom.toLowerCase() === name.toLowerCase());
+        } catch (err) {
+            console.log('Error getting personnage', err);
+        }
+    }
+    
 }
