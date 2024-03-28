@@ -1,0 +1,36 @@
+body {
+    background-color: #1b1e20;
+    color: #fff;
+}
+
+header {
+    background-color: #1d1f21;
+}
+
+
+.nav-link, h2, p , .item {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+
+.bg-body-tertiary {
+    background-color: #2a2d31;
+}
+
+.card{
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.favoris{
+    margin-left: 1rem;
+}
+
+.card-text,.home{
+    color: black;
+}
+

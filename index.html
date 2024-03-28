@@ -5,40 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dofus</title>
-    <link href="https://bootswatch.com/5/sketchy/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/allperso.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" rel="stylesheet">
     <script type="module" src="/js/app.js"></script>
 </head>
-
 <body>
-
-    <body>
-
-
-        <header data-bs-theme="dark">
-            <div class="navbar navbar-dark bg-dark shadow-sm">
-                <div class="container">
-                    <a href="#" class="navbar-brand d-flex align-items-center">
-                          &nbsp; 
-                        <strong>Dofus</strong>
-                    </a>
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#/" class="nav-link px-2">Home</a></li>
-                        <li><a href="#/Personnages" class="nav-link px-2 text-white">Tous les Personnages</a></li>
-                        <li><a href="#/favoris" class="nav-link px-2 text-white">Favoris</a></li>
-                      </ul>
-                </div>
+    <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    &nbsp;
+                    <img src="https://legolasgamer.com/wp-content/uploads/2014/05/logo_DOFUS_PNG_HD.png" alt="" width="100">
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="/" class="nav-link px-2">Home</a></li>
+                    <li><a href="#/Personnages" class="nav-link px-2">Tous les Personnages</a></li>
+                    <li><a href="#/favoris" class="nav-link px-2">Favoris</a></li>
+                </ul>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <main>
-
-            <div class=" py-5 bg-body-tertiary">
-                <div class="container">
-                    <div id="content"></div>
-                </div>
+    <main>
+        <div class="py-5 bg-body-tertiary">
+            <div class="container">
+                <div id="content"></div>
             </div>
+        </div>
+    </main>
+    <script>
+        function searchByName() {
+            const searchBar = document.getElementById('searchBar');
+            const listItems = document.querySelectorAll('ul li');
+    
+            const entré = searchBar.value.toLowerCase();
+    
+            for (let i = 0; i < listItems.length; i++) {
+                const item = listItems[i];
+                const h3Element = item.querySelector('h3');
+                
+                if (h3Element) {
+                    const name = h3Element.textContent.toLowerCase();
+    
+                    if (name.includes(entré)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            }
+        }
+    </script>
 
-        </main>
-    </body>
+    
 
+</body>
 </html>

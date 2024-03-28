@@ -1,0 +1,80 @@
+/* Styles pour la liste de personnages */
+.liste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles pour chaque carte de personnage */
+.cardbis {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 500px; /* Ajustez la hauteur selon vos besoins */
+    width: 350px; /* Ajustez la largeur selon vos besoins */
+}
+
+/* Styles pour l'image du personnage */
+.image-container {
+    width: 100%;
+    height: 100%; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+    border-radius: 8px 8px 0 0; /* Coins arrondis seulement en haut */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styles pour le texte et les liens dans la carte */
+.card-text {
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    background-color: #1b1e20;
+    color: #fff;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.lignefavoris {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 10px;
+}
