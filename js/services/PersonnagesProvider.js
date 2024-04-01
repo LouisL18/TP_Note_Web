@@ -18,7 +18,21 @@ export default class PersonnagesProvider {
        }
     }
 
-
+    static async fetchPersonnageById(personnageId) {
+        const options = {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        };
+        try {
+            const response = await fetch(`${ENDPOINT}/${personnageId}`, options)
+            const json = await response.json();
+            return json
+        } catch (err) {
+            console.log('Error getting personnage', err)
+        }
+    }
     static getPersonnage = async (id) => {
         const options = {
            method: 'GET',
