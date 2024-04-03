@@ -29,6 +29,12 @@ header {
 .favoris{
     margin-left: 1rem;
 }
+span img {
+    width: 20px;
+    height: auto;
+}
+
+
 
 .card-text,.home{
     color: black;
