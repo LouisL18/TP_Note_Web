@@ -19,7 +19,7 @@ export default class Favoris {
                                 <p class="card-text">${personnage.nom}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="#/personnages/${personnage.id}" class="btn btn-sm btn-outline-secondary">Voir ${personnage.id}</a>
+                                        <a href="#/personnages/${personnage.nom}" class="btn btn-sm btn-outline-secondary">Voir ${personnage.nom}</a>
                                     </div>
                                 </div>
                             </div>

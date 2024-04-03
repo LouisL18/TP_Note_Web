@@ -48,7 +48,7 @@ export default class PersonnageAll {
                             </div>
                             <div class="lignefavoris">
                                 <h3>${personnage.nom ? personnage.nom.slice(0, 100) : ''}</h3>
-                                <a href="#/personnages/${personnage.id}" class="btn btn-sm btn-outline-secondary">Voir ${personnage.id}</a>
+                                
                                 <span class="addToFavoritesBtn" style="cursor: pointer;" data-personnage-id="${personnage.id}">${this.favoris.includes(personnage.id) ? '<img src="../../icon/heart2.png" alt="favori">' : '<img src="../../icon/heart.png" alt="non-favori">'}</span>
                             </div>
                             <a href="#/Personnages/${personnage.nom}" class="btn btn-sm btn-outline-secondary">Voir ${personnage.nom}</a>
