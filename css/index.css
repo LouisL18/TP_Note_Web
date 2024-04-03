@@ -40,3 +40,16 @@ span img {
     color: black;
 }
 
+
+
+
+.col-md-6 button{
+    background-color: #2a2d31;
+    color: white;
+    border: none;
+    width: 10px;
+}
+.col-md-6 button:hover{
+    background-color: #2a2d31;
+    color: white;
+}
