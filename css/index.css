@@ -29,8 +29,31 @@ header {
 .favoris{
     margin-left: 1rem;
 }
+span img {
+    width: 20px;
+    height: auto;
+}
+
+
 
 .card-text,.home{
     color: black;
 }
 
+.col-md-6 button{
+    background-color: #2a2d31;
+    color: white;
+    border: none;
+    width: 10px;
+}
+.col-md-6 button:hover{
+    background-color: #2a2d31;
+    color: white;
+}
+
+h4{
+    color: white;
+}
+.equipement-container button{
+    margin-left: 40px;
+}

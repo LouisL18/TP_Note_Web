@@ -8,11 +8,11 @@ const Utils = {
         let r = url.split("/")
         let request = {
             resource    : null,
-            nom          : null,
+            id          : null,
             verb        : null
         }
         request.resource    = r[1]
-        request.nom          = r[2]
+        request.id          = r[2]
         request.verb        = r[3]
 
         return request

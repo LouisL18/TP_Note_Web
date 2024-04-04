@@ -6,12 +6,14 @@ export default class Home {
     async render() {
         // Obtenir des données de l'API
         let personnages = await PersonnagesProvider.fetchPersonnages(50);
+        let iop = await PersonnagesProvider.getPersonnagebis("Iop");
+        console.log(iop);
 
         let view = `
             <div class="jumbotron">
                 <h1>Bienvenue sur notre projet Dofus!</h1>
                 <p class="home">Explorez l'univers passionnant de Dofus avec notre application.</p>
-                <a href="/personnages" class="btn btn-primary">Voir les personnages</a>
+                <a href="#/Personnages" class="btn btn-primary">Voir les personnages</a>
             </div>
             <div class="container">
                 <h2>Nos personnages preferés :</h2>
