@@ -82,3 +82,4 @@ export default class PersonnageAll {
         });
     }
 }
+
