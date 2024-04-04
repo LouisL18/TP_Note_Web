@@ -1,260 +1,260 @@
 {
-  "personnages": [
-    {
-      "nom": "Iop",
-      "classe": "Guerrier",
-      "description":"Les Iops sont des guerriers fonceurs et sans reproche ! Une chose est sûre : les Iops savent faire parler les armes. D'ailleurs, se retrouver pris dans une bagarre au moins une fois par jour est pour eux un signe de bonne santé. Leur tempérament impétueux fait des Iops des paladins de l'extrême, capables du meilleur... comme du pire !",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/61b5cca94070844e448c7bc1_Iopiiqf.png",
-      "niveau": 1,
-      "points_de_vie": 150,
-      "force": 15,
-      "agilite": 7,
-      "intelligence": 5,
-      "equipement": {
-        "arme": "Épée de l'Iop",
-        "armure": "Armure du Iop",
-        "accessoires": ["Bouclier du Iop", "Bottes du Iop"]
-      }
-    },
-    {
-      "nom": "Eniripsa",
-      "classe": "Soigneur",
-      "description":"Les Eniripsas sont des guérisseurs qui soignent d'un simple Mot. Ils utilisent le pouvoir de la parole pour soulager les souffrances de leurs alliés, mais parfois aussi pour blesser leurs ennemis. Certains Eniripsas sont même devenus de véritables arpenteurs du verbe, des rôdeurs des langues oubliées.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a41634352d1977dd5597_eniifdsg.png",
-      "niveau": 1,
-      "points_de_vie": 120,
-      "force": 5,
-      "agilite": 8,
-      "intelligence": 15,
-      "equipement": {
-        "arme": "Bâton de l'Eniripsa",
-        "armure": "Robe de l'Eniripsa",
-        "accessoires": ["Anneau de l'Eniripsa"]
-      }
-    },
-    {
-      "nom": "Osamodas",
-      "classe": "Invocateur",
-      "description":"Les Osamodas sont des dompteurs nés ! Ils ont le pouvoir d'invoquer des créatures et sont de remarquables dresseurs. Une rumeur prétend qu'ils taillent leurs vêtements dans la peau de leurs ennemis, mais allez donc leur demander ce qu'il en est… Si vous êtes de son côté, un Osamodas sera aux petits soins pour vous. Dans le cas contraire, peut-être terminerez-vous votre vie sous la forme d'une botte ou d'un bonnet fourré.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6255211e35c3480e0d861d96_osadffsg.png",
-      "niveau": 1,
-      "points_de_vie": 130,
-      "force": 10,
-      "agilite": 8,
-      "intelligence": 10,
-      "equipement": {
-        "arme": "Lance de l'Osamodas",
-        "armure": "Tenue de l'Osamodas",
-        "accessoires": ["Amulette de l'Osamodas"]
-      }
-    },
-    {
-      "nom": "Sacrieur",
-      "classe": "Tank",
-      "description":"Les Sacrieurs sont des berserkers qui décuplent leurs forces dès qu'ils sont frappés ! N'ayant pas peur de recevoir des coups, ni de s'exposer aux blessures, ils seront souvent en première ligne, prêts à verser le premier sang ! Le Sacrieur est vraiment le compagnon idéal pour vos longues soirées guerrières…",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/60ab7d3f00cd6c7c61006e80_Sacriiigsh.png",
-      "niveau": 1,
-      "points_de_vie": 200,
-      "force": 20,
-      "agilite": 5,
-      "intelligence": 5,
-      "equipement": {
-        "arme": "Épée du Sacrieur",
-        "armure": "Cape du Sacrieur",
-        "accessoires": ["Ceinture du Sacrieur"]
-      }
-    },
-    {
-      "nom": "Cra",
-      "classe": "Archer",
-      "description":"Les Crâs sont des archers aussi fiers que précis ! Ils font des alliés précieux contre les adeptes de la mêlée franche. Restant à distance, décochant leurs traits empennés dans le moindre orifice laissé sans surveillance, ils ne laissent aucun répit à leurs adversaires !",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/63683227ca8016f20d5bf95e_Cra1.png",
-      "niveau": 1,
-      "points_de_vie": 130,
-      "force": 8,
-      "agilite": 15,
-      "intelligence": 7,
-      "equipement": {
-        "arme": "Arc du Cra",
-        "armure": "Cape du Cra",
-        "accessoires": ["Flèches de précision"]
-      }
-    },
-    {
-      "nom": "Sadida",
-      "classe": "Invocateur",
-      "description":"Les Sadidas sont des invocateurs qui empoisonnent la vie de leurs ennemis ! Apprivoiser les Ronces pour en faire des armes terrifiantes, confectionner des poupées de guerre et de soins, voilà qui satisfait tout disciple Sadida digne de ce nom.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/60e03d46178a7488fa27c361_Sadidfsg.png",
-      "niveau": 1,
-      "points_de_vie": 140,
-      "force": 10,
-      "agilite": 7,
-      "intelligence": 13,
-      "equipement": {
-        "arme": "Baguette du Sadida",
-        "armure": "Robe du Sadida",
-        "accessoires": ["Chapeau du Sadida"]
-      }
-    },
-    {
-      "nom": "Sram",
-      "classe": "Assasin",
-      "description":"Les Srams sont des assassins qui aiment les bourses, rebondies de préférence. Trousser les pans d'une tunique, tâter le fond d'une poche, faire preuve de doigté, palper enfin des bijoux tant convoités avant de poser un piège ou d'asséner un coup mortel, voilà la vie d'un disciple de Sram !",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/638b66c3af088143043fb8b5_Sram6.png",
-      "niveau": 1,
-      "points_de_vie": 130,
-      "force": 10,
-      "agilite": 12,
-      "intelligence": 8,
-      "equipement": {
-        "arme": "Dague du Sram",
-        "armure": "Cape du Sram",
-        "accessoires": ["Masque du Sram", "Cape du Sram"]
-      }
-    },
-    {
-      "nom": "Feca",
-      "classe": "Protecteur",
-      "description":"Les Fécas sont de loyaux protecteurs toujours sur la défensive. Ils sont appréciés dans les groupes d'aventuriers pour leurs armures élémentaires et leur capacité à encaisser les coups durs. Ils sont également maîtres dans l’art des signes magiques : quand il va y avoir du grabuge, les Fécas sortent leurs glyphes !",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6152ce9da0bf23be9ec297d0_Fécasfqghh.png",
-      "niveau": 1,
-      "points_de_vie": 160,
-      "force": 8,
-      "agilite": 6,
-      "intelligence": 14,
-      "equipement": {
-        "arme": "Épée du Feca",
-        "armure": "Bouclier du Feca",
-        "accessoires": ["Bottes du Feca"]
-      }
-    },
-    {
-      "nom": "Xelor",
-      "classe": "Manipulateur du temps",
-      "description":"Les Xélors sont des mages qui maîtrisent le temps et toutes les mécaniques qui donnent l'heure : carillons, horloges, et pendules leur obéissent au doigt et à l'œil. Les Xélors jouent donc avec le temps pour ralentir un ennemi ou se téléporter où bon leur semble.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/612937c4e5e88aad5ecb5587_Xeliifods.png",
-      "niveau": 1,
-      "points_de_vie": 140,
-      "force": 7,
-      "agilite": 10,
-      "intelligence": 13,
-      "equipement": {
-        "arme": "Montre du Xelor",
-        "armure": "Robe du Xelor",
-        "accessoires": ["Chapeau du Xelor"]
-      }
-    },
-    {
-      "nom": "Pandawa",
-      "classe": "Maître des éléments",
-      "description":"Les Pandawas sont des guerriers adeptes des arts martiaux qui savent faire des folies de leurs corps ! Ils peuvent même en faire avec le corps des autres… Le Pandawa sait comment soulever les foules, il porte ses alliés sur ses épaules pour mieux les protéger. Quant à ses ennemis, il les enverra valser dans le décor, avant de fêter sa victoire avec une bonne rasade de lait de bambou !",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070aa9a90c25043107d475d_pannnda.png",
-      "niveau": 1,
-      "points_de_vie": 170,
-      "force": 12,
-      "agilite": 10,
-      "intelligence": 8,
-      "equipement": {
-        "arme": "Tonfa du Pandawa",
-        "armure": "Tenue du Pandawa",
-        "accessoires": ["Ceinture du Pandawa"]
-      }
-    },
-    {
-      "nom": "Roublard",
-      "classe": "Voleur",
-      "description":"Membres d’un clan créé à l’origine par Raval et la famille Smisse, les Roublards ont finalement prêté allégeance au dieu Dralbour, qui n’est autre que Sram. Maîtres de l’entourloupe, du coup fourré, des bombes à retardement et des pistolets… les Roublards ne sont à l’aise qu’en terrain miné.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a65fc60c57c70b9c94e8_Rouuubignole.png",
-      "niveau": 1,
-      "points_de_vie": 140,
-      "force": 10,
-      "agilite": 13,
-      "intelligence": 7,
-      "equipement": {
-        "arme": "Pistolet du Roublard",
-        "armure": "Veste du Roublard",
-        "accessoires": ["Cape du Roublard"]
-      }
-    },
-    {
-      "nom": "Zobal",
-      "classe": "Transformiste",
-      "description":"Les Zobals portent des masques magiques qui leur permettent de changer de tête comme de chemise. Tour à tour collants comme de la glu, enragés comme des psychopathes ou partisans de la retraite stratégique, ils s’adaptent à la situation, mais gare aux troubles de la personnalité ! La légende dit que ces êtres imprévisibles seraient bénis par Sadida lui-même.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070ac4572bf31ec31d8a468_zobal.png",
-      "niveau": 1,
-      "points_de_vie": 150,
-      "force": 12,
-      "agilite": 9,
-      "intelligence": 9,
-      "equipement": {
-        "arme": "Masque du Zobal",
-        "armure": "Costume du Zobal",
-        "accessoires": ["Bouclier du Zobal"]
-      }
-    },
-    {
-      "nom": "Steamer",
-      "classe": "Ingénieur",
-      "description":"Les Steamers ont plus d’une tourelle dans leur boîte à outils. En fins tacticiens, ils utilisent la technomagie pour prendre l’avantage sur le terrain. Ces marinventeurs aux scaphandres rutilants vouent un culte au Grand Oktapodas, le protecteur des océans.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/63ac9410677bb49c4e06fc6b_Steam2.png",
-      "niveau": 1,
-      "points_de_vie": 160,
-      "force": 9,
-      "agilite": 10,
-      "intelligence": 11,
-      "equipement": {
-        "arme": "Canne du Steamer",
-        "armure": "Armure du Steamer",
-        "accessoires": ["Casque du Steamer"]
-      }
-    },
-    {
-      "nom": "Eliotrope",
-      "classe": "Maître des portails",
-      "description":"Apparus par accident, les Eliotropes sont des reflets de leur créateur, le Roi-Dieu. Ils se déplacent à la vitesse de l'éclair, disparaissant en un clin d'œil pour réapparaître plus loin. Tout comme les Eliatropes, ils connaissent les secrets du Wakfu.",
-      "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6186455ecb01419179a47094_Eliostrsff.png",
-      "niveau": 1,
-      "points_de_vie": 150,
-      "force": 10,
-      "agilite": 10,
-      "intelligence": 15,
-      "equipement": {
-          "arme": "Bâton de l'Eliotrope",
-          "armure": "Robe de l'Eliotrope",
-          "accessoires": ["Chapeau de l'Eliotrope"]
+    "personnages": [
+      {
+        "nom": "Iop",
+        "classe": "Guerrier",
+        "description":"Les Iops sont des guerriers fonceurs et sans reproche ! Une chose est sûre : les Iops savent faire parler les armes. D'ailleurs, se retrouver pris dans une bagarre au moins une fois par jour est pour eux un signe de bonne santé. Leur tempérament impétueux fait des Iops des paladins de l'extrême, capables du meilleur... comme du pire !",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/61b5cca94070844e448c7bc1_Iopiiqf.png",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 15,
+        "agilite": 7,
+        "intelligence": 5,
+        "equipement": {
+          "arme": "Épée de l'Iop",
+          "armure": "Armure du Iop",
+          "accessoires": ["Bouclier du Iop", "Bottes du Iop"]
         }
       },
       {
-        "nom": "Huppermage",
-        "classe": "Mage élémentaliste",
-        "description":"Les Huppermages sont des mages qui maîtrisent les éléments. Ils sont capables de manipuler le feu, l'eau, la terre et l'air pour en faire des armes redoutables. Les Huppermages sont des combattants redoutables qui peuvent aussi soigner leurs alliés.",
-        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a3fda6f272848a3fae6a_Hupstlegfsd.png",
+        "nom": "Eniripsa",
+        "classe": "Soigneur",
+        "description":"Les Eniripsas sont des guérisseurs qui soignent d'un simple Mot. Ils utilisent le pouvoir de la parole pour soulager les souffrances de leurs alliés, mais parfois aussi pour blesser leurs ennemis. Certains Eniripsas sont même devenus de véritables arpenteurs du verbe, des rôdeurs des langues oubliées.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a41634352d1977dd5597_eniifdsg.png",
+        "niveau": 1,
+        "points_de_vie": 120,
+        "force": 5,
+        "agilite": 8,
+        "intelligence": 15,
+        "equipement": {
+          "arme": "Bâton de l'Eniripsa",
+          "armure": "Robe de l'Eniripsa",
+          "accessoires": ["Anneau de l'Eniripsa"]
+        }
+      },
+      {
+        "nom": "Osamodas",
+        "classe": "Invocateur",
+        "description":"Les Osamodas sont des dompteurs nés ! Ils ont le pouvoir d'invoquer des créatures et sont de remarquables dresseurs. Une rumeur prétend qu'ils taillent leurs vêtements dans la peau de leurs ennemis, mais allez donc leur demander ce qu'il en est… Si vous êtes de son côté, un Osamodas sera aux petits soins pour vous. Dans le cas contraire, peut-être terminerez-vous votre vie sous la forme d'une botte ou d'un bonnet fourré.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6255211e35c3480e0d861d96_osadffsg.png",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 10,
+        "agilite": 8,
+        "intelligence": 10,
+        "equipement": {
+          "arme": "Lance de l'Osamodas",
+          "armure": "Tenue de l'Osamodas",
+          "accessoires": ["Amulette de l'Osamodas"]
+        }
+      },
+      {
+        "nom": "Sacrieur",
+        "classe": "Tank",
+        "description":"Les Sacrieurs sont des berserkers qui décuplent leurs forces dès qu'ils sont frappés ! N'ayant pas peur de recevoir des coups, ni de s'exposer aux blessures, ils seront souvent en première ligne, prêts à verser le premier sang ! Le Sacrieur est vraiment le compagnon idéal pour vos longues soirées guerrières…",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/60ab7d3f00cd6c7c61006e80_Sacriiigsh.png",
+        "niveau": 1,
+        "points_de_vie": 200,
+        "force": 20,
+        "agilite": 5,
+        "intelligence": 5,
+        "equipement": {
+          "arme": "Épée du Sacrieur",
+          "armure": "Cape du Sacrieur",
+          "accessoires": ["Ceinture du Sacrieur"]
+        }
+      },
+      {
+        "nom": "Cra",
+        "classe": "Archer",
+        "description":"Les Crâs sont des archers aussi fiers que précis ! Ils font des alliés précieux contre les adeptes de la mêlée franche. Restant à distance, décochant leurs traits empennés dans le moindre orifice laissé sans surveillance, ils ne laissent aucun répit à leurs adversaires !",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/63683227ca8016f20d5bf95e_Cra1.png",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 8,
+        "agilite": 15,
+        "intelligence": 7,
+        "equipement": {
+          "arme": "Arc du Cra",
+          "armure": "Cape du Cra",
+          "accessoires": ["Flèches de précision"]
+        }
+      },
+      {
+        "nom": "Sadida",
+        "classe": "Invocateur",
+        "description":"Les Sadidas sont des invocateurs qui empoisonnent la vie de leurs ennemis ! Apprivoiser les Ronces pour en faire des armes terrifiantes, confectionner des poupées de guerre et de soins, voilà qui satisfait tout disciple Sadida digne de ce nom.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/60e03d46178a7488fa27c361_Sadidfsg.png",
         "niveau": 1,
         "points_de_vie": 140,
-        "force": 8,
-        "agilite": 10,
-        "intelligence": 12,
+        "force": 10,
+        "agilite": 7,
+        "intelligence": 13,
         "equipement": {
-          "arme": "Bâton du Huppermage",
-          "armure": "Robe du Huppermage",
-          "accessoires": ["Chapeau du Huppermage"]
+          "arme": "Baguette du Sadida",
+          "armure": "Robe du Sadida",
+          "accessoires": ["Chapeau du Sadida"]
         }
+      },
+      {
+        "nom": "Sram",
+        "classe": "Assasin",
+        "description":"Les Srams sont des assassins qui aiment les bourses, rebondies de préférence. Trousser les pans d'une tunique, tâter le fond d'une poche, faire preuve de doigté, palper enfin des bijoux tant convoités avant de poser un piège ou d'asséner un coup mortel, voilà la vie d'un disciple de Sram !",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/638b66c3af088143043fb8b5_Sram6.png",
+        "niveau": 1,
+        "points_de_vie": 130,
+        "force": 10,
+        "agilite": 12,
+        "intelligence": 8,
+        "equipement": {
+          "arme": "Dague du Sram",
+          "armure": "Cape du Sram",
+          "accessoires": ["Masque du Sram", "Cape du Sram"]
+        }
+      },
+      {
+        "nom": "Feca",
+        "classe": "Protecteur",
+        "description":"Les Fécas sont de loyaux protecteurs toujours sur la défensive. Ils sont appréciés dans les groupes d'aventuriers pour leurs armures élémentaires et leur capacité à encaisser les coups durs. Ils sont également maîtres dans l’art des signes magiques : quand il va y avoir du grabuge, les Fécas sortent leurs glyphes !",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6152ce9da0bf23be9ec297d0_Fécasfqghh.png",
+        "niveau": 1,
+        "points_de_vie": 160,
+        "force": 8,
+        "agilite": 6,
+        "intelligence": 14,
+        "equipement": {
+          "arme": "Épée du Feca",
+          "armure": "Bouclier du Feca",
+          "accessoires": ["Bottes du Feca"]
+        }
+      },
+      {
+        "nom": "Xelor",
+        "classe": "Manipulateur du temps",
+        "description":"Les Xélors sont des mages qui maîtrisent le temps et toutes les mécaniques qui donnent l'heure : carillons, horloges, et pendules leur obéissent au doigt et à l'œil. Les Xélors jouent donc avec le temps pour ralentir un ennemi ou se téléporter où bon leur semble.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/612937c4e5e88aad5ecb5587_Xeliifods.png",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 7,
+        "agilite": 10,
+        "intelligence": 13,
+        "equipement": {
+          "arme": "Montre du Xelor",
+          "armure": "Robe du Xelor",
+          "accessoires": ["Chapeau du Xelor"]
+        }
+      },
+      {
+        "nom": "Pandawa",
+        "classe": "Maître des éléments",
+        "description":"Les Pandawas sont des guerriers adeptes des arts martiaux qui savent faire des folies de leurs corps ! Ils peuvent même en faire avec le corps des autres… Le Pandawa sait comment soulever les foules, il porte ses alliés sur ses épaules pour mieux les protéger. Quant à ses ennemis, il les enverra valser dans le décor, avant de fêter sa victoire avec une bonne rasade de lait de bambou !",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070aa9a90c25043107d475d_pannnda.png",
+        "niveau": 1,
+        "points_de_vie": 170,
+        "force": 12,
+        "agilite": 10,
+        "intelligence": 8,
+        "equipement": {
+          "arme": "Tonfa du Pandawa",
+          "armure": "Tenue du Pandawa",
+          "accessoires": ["Ceinture du Pandawa"]
+        }
+      },
+      {
+        "nom": "Roublard",
+        "classe": "Voleur",
+        "description":"Membres d’un clan créé à l’origine par Raval et la famille Smisse, les Roublards ont finalement prêté allégeance au dieu Dralbour, qui n’est autre que Sram. Maîtres de l’entourloupe, du coup fourré, des bombes à retardement et des pistolets… les Roublards ne sont à l’aise qu’en terrain miné.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a65fc60c57c70b9c94e8_Rouuubignole.png",
+        "niveau": 1,
+        "points_de_vie": 140,
+        "force": 10,
+        "agilite": 13,
+        "intelligence": 7,
+        "equipement": {
+          "arme": "Pistolet du Roublard",
+          "armure": "Veste du Roublard",
+          "accessoires": ["Cape du Roublard"]
+        }
+      },
+      {
+        "nom": "Zobal",
+        "classe": "Transformiste",
+        "description":"Les Zobals portent des masques magiques qui leur permettent de changer de tête comme de chemise. Tour à tour collants comme de la glu, enragés comme des psychopathes ou partisans de la retraite stratégique, ils s’adaptent à la situation, mais gare aux troubles de la personnalité ! La légende dit que ces êtres imprévisibles seraient bénis par Sadida lui-même.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070ac4572bf31ec31d8a468_zobal.png",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 12,
+        "agilite": 9,
+        "intelligence": 9,
+        "equipement": {
+          "arme": "Masque du Zobal",
+          "armure": "Costume du Zobal",
+          "accessoires": ["Bouclier du Zobal"]
+        }
+      },
+      {
+        "nom": "Steamer",
+        "classe": "Ingénieur",
+        "description":"Les Steamers ont plus d’une tourelle dans leur boîte à outils. En fins tacticiens, ils utilisent la technomagie pour prendre l’avantage sur le terrain. Ces marinventeurs aux scaphandres rutilants vouent un culte au Grand Oktapodas, le protecteur des océans.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/63ac9410677bb49c4e06fc6b_Steam2.png",
+        "niveau": 1,
+        "points_de_vie": 160,
+        "force": 9,
+        "agilite": 10,
+        "intelligence": 11,
+        "equipement": {
+          "arme": "Canne du Steamer",
+          "armure": "Armure du Steamer",
+          "accessoires": ["Casque du Steamer"]
+        }
+      },
+      {
+        "nom": "Eliotrope",
+        "classe": "Maître des portails",
+        "description":"Apparus par accident, les Eliotropes sont des reflets de leur créateur, le Roi-Dieu. Ils se déplacent à la vitesse de l'éclair, disparaissant en un clin d'œil pour réapparaître plus loin. Tout comme les Eliatropes, ils connaissent les secrets du Wakfu.",
+        "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6186455ecb01419179a47094_Eliostrsff.png",
+        "niveau": 1,
+        "points_de_vie": 150,
+        "force": 10,
+        "agilite": 10,
+        "intelligence": 15,
+        "equipement": {
+            "arme": "Bâton de l'Eliotrope",
+            "armure": "Robe de l'Eliotrope",
+            "accessoires": ["Chapeau de l'Eliotrope"]
+          }
         },
         {
-          "nom": "Ouginak",
-          "classe": "Guerrier bestial",
-          "description":"Les Ouginaks sont des guerriers bestiaux qui se battent avec la rage d'un chien enragé. Ils sont capables de se transformer en bête féroce pour terrasser leurs ennemis. Les Ouginaks sont des combattants redoutables qui ne reculent devant rien pour atteindre leur objectif.",
-          "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a86f4ce1d90fdfd8fe38_Ougiiiis.png",
+          "nom": "Huppermage",
+          "classe": "Mage élémentaliste",
+          "description":"Les Huppermages sont des mages qui maîtrisent les éléments. Ils sont capables de manipuler le feu, l'eau, la terre et l'air pour en faire des armes redoutables. Les Huppermages sont des combattants redoutables qui peuvent aussi soigner leurs alliés.",
+          "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a3fda6f272848a3fae6a_Hupstlegfsd.png",
           "niveau": 1,
-          "points_de_vie": 170,
-          "force": 15,
+          "points_de_vie": 140,
+          "force": 8,
           "agilite": 10,
-          "intelligence": 7,
+          "intelligence": 12,
           "equipement": {
-            "arme": "Griffes de l'Ouginak",
-            "armure": "Peau de l'Ouginak",
-            "accessoires": ["Collier de l'Ouginak"]
+            "arme": "Bâton du Huppermage",
+            "armure": "Robe du Huppermage",
+            "accessoires": ["Chapeau du Huppermage"]
           }
-        }
-  ]
+          },
+          {
+            "nom": "Ouginak",
+            "classe": "Guerrier bestial",
+            "description":"Les Ouginaks sont des guerriers bestiaux qui se battent avec la rage d'un chien enragé. Ils sont capables de se transformer en bête féroce pour terrasser leurs ennemis. Les Ouginaks sont des combattants redoutables qui ne reculent devant rien pour atteindre leur objectif.",
+            "image":"https://assets-global.website-files.com/5ec4efd79351f86bb1b5e7cb/6070a86f4ce1d90fdfd8fe38_Ougiiiis.png",
+            "niveau": 1,
+            "points_de_vie": 170,
+            "force": 15,
+            "agilite": 10,
+            "intelligence": 7,
+            "equipement": {
+              "arme": "Griffes de l'Ouginak",
+              "armure": "Peau de l'Ouginak",
+              "accessoires": ["Collier de l'Ouginak"]
+            }
+          }
+    ]
 }
